@@ -1,8 +1,6 @@
-// Defina o nome e a quantidade de experiência (XP) do herói
-let nomeDoHeroi = "Grande";
-let experienciaDoHeroi = 10000; // Altere o valor para testar diferentes níveis
 
-// Utilize uma estrutura de decisão para determinar o nível do herói
+let nomeDoHeroi = "Grande";
+let experienciaDoHeroi = 10000; 
 let nivelDoHeroi;
 
 if (experienciaDoHeroi < 1000) {
@@ -23,5 +21,5 @@ if (experienciaDoHeroi < 1000) {
     nivelDoHeroi = "Radiante";
 }
 
-// Exiba a mensagem com o nome e o nível do herói
+
 console.log(`O Herói de nome ${nomeDoHeroi} está no nível de ${nivelDoHeroi}`);
